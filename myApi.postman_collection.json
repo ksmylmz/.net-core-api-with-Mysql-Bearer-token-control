@@ -1,0 +1,166 @@
+{
+	"info": {
+		"_postman_id": "7d001254-550a-4deb-ad21-d5b3d122b7bb",
+		"name": "myApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getAllList",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5050/api/dress/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5050",
+					"path": [
+						"api",
+						"dress",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getDress",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5050/api/dress/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5050",
+					"path": [
+						"api",
+						"dress",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddDress",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n    \"Title\": \"Tunic\",\r\n    \"Size\": \"36\",\r\n    \"Color\": \"red\",\r\n    \"Quantity\": 20,\r\n    \"Price\": 20\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5051/api/dress/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5051",
+					"path": [
+						"api",
+						"dress",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateDress",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"DresID\": 9,\r\n    \"Title\": \"Skirt\",\r\n    \"Size\": \"44\",\r\n\t\"color\":\"dark brown\"\r\n    \"Quantity\": 10,\r\n    \"Price\": 40\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5050/api/dress",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5050",
+					"path": [
+						"api",
+						"dress"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteDress",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:56776/api/dress/7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "56776",
+					"path": [
+						"api",
+						"dress",
+						"7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getToken",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \n\"Username\":\"Kasim\",\n\"Password\":\"123456\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:56776/api/token?Username=Kasım&Password=123456",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "56776",
+					"path": [
+						"api",
+						"token"
+					],
+					"query": [
+						{
+							"key": "Username",
+							"value": "Kasım"
+						},
+						{
+							"key": "Password",
+							"value": "123456"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

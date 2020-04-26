@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/kylmz/Masaüstü/coreApi/Dresses/Dresses/Dresses.csproj": {}
+  },
+  "projects": {
+    "/home/kylmz/Masaüstü/coreApi/Dresses/Dresses/Dresses.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/kylmz/Masaüstü/coreApi/Dresses/Dresses/Dresses.csproj",
+        "projectName": "Dresses",
+        "projectPath": "/home/kylmz/Masaüstü/coreApi/Dresses/Dresses/Dresses.csproj",
+        "packagesPath": "/home/kylmz/.nuget/packages/",
+        "outputPath": "/home/kylmz/Masaüstü/coreApi/Dresses/Dresses/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/kylmz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.DataAnnotations": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.19, )"
+            },
+            "System.Data.Common": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
